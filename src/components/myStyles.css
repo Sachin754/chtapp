@@ -14,20 +14,39 @@ flex-direction: column;
 
 }
 .chatarea-container{
-
+    flex: 0.7;
 display: flex;
 flex-direction: column;
+
 
 }
 .chatArea-header{
     background-color: orange;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
 }
 .message-container{
-    background-color: aquamarine;
+    background-color: white;
     flex: 1;
 }
 .text-input-area{
-    background-color: yellow;
+    background-color:white;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 .sb-header{
     background-color: white;
